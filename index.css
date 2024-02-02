@@ -595,7 +595,7 @@ body{
     margin: 0 !important;
     right: 20px;
   
-    bottom: 805px;
+    bottom: 600px;
     object-fit: cover;
     z-index: 4;
   }
@@ -620,7 +620,7 @@ body{
   }
   .in-this-web {
   
-    top: 332px;
+    top: 400px;
     left: 34px;
     
     font-size: 43px;
@@ -633,7 +633,7 @@ body{
   .common-school-of-container {
     margin: 0;
     position: absolute;
-    top: 89px;
+    top: 159px;
     left: 0;
     font-size: 105px;
     font-weight: 1400;
@@ -647,7 +647,7 @@ body{
     width: 300px;
     position: absolute;
     margin: 0 !important;
-    top: 300px;
+    top: 400px;
     bottom: 0;
     left: 180px;
     border-radius: var(--br-5xs);
@@ -658,7 +658,7 @@ body{
     width: 300px;
     position: absolute;
     margin: 0 !important;
-    top: 300px;
+    top: 400px;
     bottom: 0;
     left: 380px;
     border-radius: var(--br-5xs);
@@ -669,7 +669,7 @@ body{
   .news {
     height: 38px;
     width: 177px;
-    top: 305px;
+    top: 405px;
     bottom: 0;
     left: 212px;
     font-size: 33px;
@@ -679,7 +679,7 @@ body{
     z-index: 1;
   }
   .contact {
-    top: 305px;
+    top: 405px;
     bottom: 0;
     left: 400px;
     font-size: 33px;
