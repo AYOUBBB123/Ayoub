@@ -570,7 +570,7 @@ body{
   color: var(--color-white);
   font-family: var(--font-francois-one);
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 550px) {
   .home {
  
     max-width: 1000%;
