@@ -571,47 +571,163 @@ body{
   font-family: var(--font-francois-one);
 }
 @media screen and (max-width: 750px) {
-  .staff-members-frame {
-    gap: var(--gap-33xl);
-  }
-  .courses-online-frame {
-    padding-left: 63px;
-    padding-right: 25px;
-    box-sizing: border-box;
-  }
-  .common-school-of-container {
-    font-size: 52px;
-  }
   .home {
+ 
+    max-width: 1000%;
+    min-height: 1000%;
+    position: relative;
+    background: radial-gradient(50% 50%at 50% 50%, #291467, #0b0127);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-xl) 0 1200px 1px;
     gap: var(--gap-79xl);
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 65px;
+    color: var(--color-white);
+    font-family: var(--font-francois-one);
   }
-}
-@media screen and (max-width: 675px) {
-  .emplois-du-temps-container,
-  .planning-des-examens-container,
-  .universit-batna-2 {
-    display: none;
+  .saly-10-icon {
+    width: 1218px;
+    height: 1008px;
+    position: absolute;
+    margin: 0 !important;
+    right: 20px;
+  
+    bottom: -25px;
+    object-fit: cover;
+    z-index: 4;
   }
-}
-@media screen and (max-width: 450px) {
-  .university-frame {
-    display: none;
-    gap: var(--gap-16xl);
-  }
-  .courses-online-frame {
-    padding-left: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .common-school-of-container {
-    font-size: 39px;
-  }
-  .contact,
-  .in-this-web,
-  .news,
   .this-website-is {
-    font-size: var(--font-size-base);
+    position: absolute;
+    top: -55px;
+    left: -205px;
+   
+    letter-spacing: 0.1em;
+    font-weight: 50;
+    font-size: 38px;
+    font-family: var(--font-poppins);
+    color: var(--color-gray-100);
+    white-space: pre-wrap;
+    z-index: 1;
   }
-  .home {
-    gap: var(--gap-79xl);
+  .department-of-text {
+    align-self: stretch;
+    height: 300px;
+    width: 1900px;
+    position: relative;
   }
+  .in-this-web {
+  
+    top: 332px;
+    left: 34px;
+    
+    font-size: 43px;
+    height: 300px;
+    width: 1000px;
+    position: relative;
+   min-width: 250%;
+    
+  }
+  .common-school-of-container {
+    margin: 0;
+    position: absolute;
+    top: 89px;
+    left: 0;
+    font-size: 105px;
+    font-weight: 1400;
+    font-family: inherit;
+    display: inline-block;
+    width: 832px;
+    height: 281px;
+  }
+  .nested-news-rectangle {
+    height: 150%;
+    width: 300px;
+    position: absolute;
+    margin: 0 !important;
+    top: 300px;
+    bottom: 0;
+    left: 180px;
+    border-radius: var(--br-5xs);
+    background: linear-gradient(94.76deg, #f97e48, #ed504e);
+  }
+  .news-rectangle-child {
+    height: 150%;
+    width: 300px;
+    position: absolute;
+    margin: 0 !important;
+    top: 300px;
+    bottom: 0;
+    left: 380px;
+    border-radius: var(--br-5xs);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .news {
+    height: 38px;
+    width: 177px;
+    top: 305px;
+    bottom: 0;
+    left: 212px;
+    font-size: 33px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .contact {
+    top: 305px;
+    bottom: 0;
+    left: 400px;
+    font-size: 33px;
+    height: 38px;
+    width: 173px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .courses-online-frame {
+    
+    height: 90px;
+  }
+  .comit-scientifique-parent {
+  top: 0px;
+  }
+
+.staff {
+  top: 20px;
+}
+.accueil {
+  top: 20px;
+  right: 22px;
+}
+.les-notes{
+  top: 20px;
+  right: 10px;
+}
+.emplois-du-temps-container{
+  top: -45px;
+}
+.planning-des-examens-container {
+  top: -45px;
+  right: 22px;
+}
+.cours-en-ligne-container {
+  top: -45px;
+  left: 22px;
+}
+.search-for-anything {
+  font-size: 19px;
+  top: -5px;
+}
+.notes-planning-frame-child {
+height: 40px;}
+.search-input-frame {
+  height: 40px;
+}
+
 }
