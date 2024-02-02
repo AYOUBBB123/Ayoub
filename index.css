@@ -1,3 +1,6 @@
+body{
+    position :fixed;
+}
 .universit-de-batna-2-mostefa-icon {
     width: 47px;
     flex: 1;
