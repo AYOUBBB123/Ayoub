@@ -574,7 +574,7 @@ body{
   .home {
  
     max-width: 1000%;
-    min-height: 1000%;
+    min-height: 2000%;
     position: relative;
     background: radial-gradient(50% 50%at 50% 50%, #291467, #0b0127);
     overflow: hidden;
