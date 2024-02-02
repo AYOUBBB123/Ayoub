@@ -580,7 +580,7 @@ body{
     overflow: hidden;
     flex-direction: column;
     justify-content: flex-start;
-    padding: var(--padding-xl) 0 1200px 1px;
+    padding: var(--padding-xl) 0 2000px 1px;
     gap: var(--gap-79xl);
     letter-spacing: normal;
     text-align: left;
@@ -595,7 +595,7 @@ body{
     margin: 0 !important;
     right: 20px;
   
-    bottom: -25px;
+    bottom: 805px;
     object-fit: cover;
     z-index: 4;
   }
@@ -730,4 +730,8 @@ height: 40px;}
   height: 40px;
 }
 
+
+}
+
+  
 }
