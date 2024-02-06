@@ -1,17 +1,15 @@
 .body{
     margin: 0px;
     padding: 0;
-    position :absolute;
-    min-width: 100%;
-    min-height: 100%;
+
     
 }
 
 .home {
   min-width: 100%;
-  min-height: 130%;
-  max-width: 200%;
-  max-height: 200%;
+  min-height: 230%;
+  max-width: 1000%;
+  max-height: 1000%;
   position: absolute;
   background: radial-gradient(50% 50%at 50% 50%, #291467, #0b0127);
   overflow: hidden;
