@@ -4,11 +4,18 @@
 
     
 }
+.photo{
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  left: 5px;
+  top: 4px;
+}
 
 .home {
 
   min-width: 120%;
-  min-height: 200%;
+  min-height: 150%;
   max-width: 1000%;
   max-height: 1000%;
   position: absolute;
