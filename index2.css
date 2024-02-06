@@ -6,8 +6,9 @@
 }
 
 .home {
-  min-width: 100%;
-  min-height: 230%;
+
+  min-width: 120%;
+  min-height: 150%;
   max-width: 1000%;
   max-height: 1000%;
   position: absolute;
@@ -42,7 +43,7 @@
     text-decoration:none ;
     padding: 15px;
     display: block;
-    font-size: 14px;
+    font-size: 13px;
     text-align: ;
     height: 15px;
     position: relative;
@@ -253,7 +254,8 @@ position:absolute;
 text-align: center;
 
 width: 85px;
-bottom: 85px;
+top: 425px;
+
 
 font-weight: 30;
 font-family: var(--font-poppins);
@@ -285,7 +287,7 @@ color: #ffffff;
   font-weight: 545;
 
   width: 85px;
-  bottom: 85px;
+  top: 425px;
   left: 240px;
   height: 17px;
 }
